@@ -1,12 +1,12 @@
 from joblib import load
 import pandas as pd
 
-model_young = load("artifacts\model_young.joblib")
-model_rest = load("artifacts\model_rest.joblib")
-scaler_young = load("artifacts\scaler_young.joblib")
-scaler_rest = load("artifacts\scaler_rest.joblib")
-scaler_score = load("artifacts\scaler_score.joblib")
-expected_columns = load("artifacts\expected_col.joblib")
+model_young = load("artifacts/model_young.joblib")
+model_rest = load("artifacts/model_rest.joblib")
+scaler_young = load("artifacts/scaler_young.joblib")
+scaler_rest = load("artifacts/scaler_rest.joblib")
+scaler_score = load("artifacts/scaler_score.joblib")
+expected_columns = load("artifacts/expected_col.joblib")
 def cal_risk_score(col):
     risk_scores = {
         'diabetes': 6,
@@ -55,7 +55,6 @@ def handle_scaling(age,df):
     return df , model
 def predict(input_dict):
     df,model = preprocess_input(input_dict,expected_columns)
-    print(df.values)
     prediction = model.predict(df)
 
     return int(prediction[0])
