@@ -77,4 +77,4 @@ Check out the **live demo**:
 
 **Moksh Jain**  
 Aspiring Data Scientist | Python & ML Enthusiast  
-[LinkedIn](https://www.linkedin.com/itsmoksh) • [GitHub](https://github.com/itsmoksh)
+[LinkedIn](https://www.linkedin.com/in/itsmoksh/) • [GitHub](https://github.com/itsmoksh)
