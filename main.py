@@ -25,7 +25,7 @@ row2 = st.columns(3)
 row3 = st.columns(3)
 row4 = st.columns(3)
 
-# Assign inputs to the grid
+#Assign four rows
 with row1[0]:
     age = st.number_input('Age', min_value=18, step=1, max_value=100)
 with row1[1]:
