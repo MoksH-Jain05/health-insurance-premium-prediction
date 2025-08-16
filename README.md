@@ -66,7 +66,6 @@ Check out the **live demo**:
 ---
 
 ## Screenshots
-## Screenshots
 
 ![Age more than 25](assets/image1.jpg)  
 ![Age less than equal to 25](assets/image2.jpg)
